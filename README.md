@@ -9,14 +9,14 @@ This script works with JSON across three categorized datasets: targets, diseases
 
 ## Getting Started
 
-This is a python script that depends largely on the python library Pandas, and makes use on Numpy. 
+This is a python script that depends largely on the python library Pandas. 
 Other modules used in the script are come with python. 
 
 ### Dependencies
 
-* Libraries needed before installing program: 
+* Library needed before installing program: 
    - Pandas (Installation: https://pandas.pydata.org/docs/getting_started/install.html) 
-   - Numpy (Installation: https://numpy.org/install/)
+
 
 
 ### Installing
