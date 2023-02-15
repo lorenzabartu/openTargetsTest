@@ -5,7 +5,7 @@ JSON Dataset Mining: Disease, Targets, Evidence: Eva
 
 ## Description
 
-This script works with JSON across three categorized datasets: targets, diseases, and sourceId=eva. 
+This script works with JSON files across three categorized datasets: targets, diseases, and sourceId=eva. 
 
 ## Getting Started
 
