@@ -45,44 +45,21 @@ Run the program:
      python combining_data.py datasets/	
     
 
-### Overarching flow of program 
+### Outputs: 
 
-Once the script is called it will: 
-
-	- Parse all json files in each of the three separate folders and merge them all respectively: 
-		* i.e. all JSON files from the disease folder are merged
-	- Begin with evidence JSON
-		- A DataFrame is created 
+1. To your set directory a JSON file entitled "output.json" will be created. 
+- The file has JSON fields: ‘targetId’, ‘diseaseId’, ‘median’, ‘top3’, ‘approvedSymbol’, ‘name’.
+- The file is organized by ascending median score values. 
+2. To the command line, a statement will be printed sharing the number of target-target pairs that share a connection to at least two diseases.
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+1. Ensure that all three dataset folders are in the same overarching folder. 
+2. The script relies on the folder names being consistent with the OpenTargets naming ("targets", "diseases", "sourceId=eva")
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Lorenza Bartu
+Lorenza Bartu
+Email: lorenzabartu@gmail.com
 
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
